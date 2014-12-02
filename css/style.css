@@ -40,3 +40,8 @@ body {
 	font-size: 4em;
 	line-height: 1.2;
 }
+
+.reveal a {
+	color:#222;
+	text-decoration: none;
+}
