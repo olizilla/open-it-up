@@ -1,9 +1,36 @@
 body {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   	font-weight: 300;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   	font-weight: 400;
 }
 
 .reveal ul li {
 	font-size: 2em;
 	padding-top: 1em;
+}
+
+.reveal h1 {
+	font-size: 5.4em;
+	line-height: 1.4;
+	letter-spacing: 1px;
+}
+
+.reveal h2 {
+	font-size: 3.6em;
+	line-height: 1.2
+}
+
+.reveal .invert * {
+	color:white;
+}
+
+.reveal .bang{
+	font-size: 1.6em;
+	font-weight: 800;
+}
+.reveal .bang h1{
+	letter-spacing: 4px;
+	font-family: Impact;
+	-webkit-text-stroke-width: 7px;
+	-webkit-text-stroke-color: #111;
+	text-transform: uppercase;
 }
